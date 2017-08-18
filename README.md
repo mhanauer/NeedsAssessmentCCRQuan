@@ -70,7 +70,7 @@ Now MCCSC SEL
 ```{r}
 #setwd("~/Desktop/QualData")
 #mccsc = read.csv("MCCSCStaffSurvey.csv", header = TRUE)
-mccsc = mccsc[-c(1:2),]
+mccsc = mccsc[-c(1:11),]
 
 mccsc1 = mccsc[c("Q5_1", "Q5_2", "Q5_3", "Q5_4", "Q5_5", "Q5_6")]
 eth = mccsc[c("Q30")]
